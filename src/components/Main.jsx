@@ -1,17 +1,17 @@
 import Container from "@mui/material/Container";
 
 const Main = () => {
-  return (
-    <Container>
+   return (
+    <div>
       <div>
         <div>
-          <h2 className="text-center text-xl font-bold mt-20">
+          <h2 className="text-center md:text-xl font-bold mt-20">
             Whether you’re buying, selling or renting,<br></br> we can help you
             move forward.
           </h2>
         </div>
         <div className="pt-10">
-          <div className="grid grid-cols-3 gap-4">
+          <div className="md:grid md:grid-cols-3 gap-4">
             <div className="border shadow-2xl rounded-md ">
               <div className="flex justify-center mt-10">
                 <img src="https://www.zillowstatic.com/s3/homepage/static/Buy_a_home.webp" />
@@ -77,27 +77,27 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="mt-40 mb-10 border-b-2 pb-10 text-current">
-          <div className="flex justify-evenly text-lg">
-            <div className="text-center border-r-2 pr-20 ">
+        <div className="mt-20 md:mt-40 mb-10 ml-10 md:ml-0 border-b-2 pb-10 text-current">
+          <div className="md:flex md:justify-evenly text-lg">
+            <div className="md:text-center md:border-r-2 md:pr-20 ">
               <div className="  pt-1 pb-1 pr-2 pl-2 no-underline hover:underline font-semibold ">
                 Real Estate
               </div>
             </div>
 
-            <div className="text-center border-r-2 pr-20">
+            <div className="md:text-center md:border-r-2 md:pr-20">
               <div className=" pt-1 pb-1 pr-2 pl-2 no-underline hover:underline font-semibold">
                 Rentals
               </div>
             </div>
 
-            <div className="text-center border-r-2 pr-20  ">
+            <div className="md:text-center md:border-r-2 md:pr-20  ">
               <div className=" pt-1 pb-1 pr-2 pl-2 no-underline hover:underline font-semibold">
                 Mortgage Rates
               </div>
             </div>
 
-            <div className="text-center pt-2 pb-2">
+            <div className="md:text-center">
               <div className=" pt-1 pb-1 pr-2 pl-2 no-underline hover:underline font-semibold">
                 Browse Homes
               </div>
@@ -105,7 +105,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 
