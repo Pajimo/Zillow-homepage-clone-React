@@ -16,7 +16,7 @@ const Header = () => {
               </ul>
             </section>
             <section>
-              <img src="src\logo.svg" />
+              <img src="src\mainLogo.svg.svg" />
             </section>
             <section>
               <ul className="flex md:space-x-8">
