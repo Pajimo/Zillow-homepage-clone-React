@@ -2,7 +2,7 @@ import Container from "@mui/material/Container";
 
 const Main = () => {
    return (
-    <div>
+    <Container>
       <div>
         <div>
           <h2 className="text-center md:text-xl font-bold mt-20">
@@ -105,7 +105,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
