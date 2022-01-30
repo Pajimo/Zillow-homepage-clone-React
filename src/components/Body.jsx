@@ -7,7 +7,7 @@ const Body = ({ url }) => {
     <div>
       <div>
         <div className="pt-6 pb-10 ">
-          <div className="flex justify-center text-4xl font-bold text-white mb-10 mt-16 font-serif">
+          <div className="flex justify-center text-2xl md:text-4xl font-bold text-white mt-10 mb-10 md:mt-16 font-serif">
             <h2>Change starts here</h2>
           </div>
           <div id="searchBar" className="flex mb-40 h-full">

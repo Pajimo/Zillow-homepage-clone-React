@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div
-        className="md:bg-cover bg-right-top bg-cover md:bg-center"
+        className=" bg-right-top bg-cover md:bg-center"
         style={{
           backgroundImage: `url(${url})`,
           backgroundRepeat: "no-repeat",
