@@ -5,7 +5,8 @@ const Footer = () => {
     <div className="container mx-auto">
       <Container>
         <div>
-          <div className="md:flex md:flex-wrap space-x-6 md:text-center leading-loose text-sm font-normal border-b-2 pb-10">
+          <div className="md:flex md:flex-wrap space-x-6 md:text-center leading-loose text-sm font-normal border-b-2 pb-10 sm:pl-5">
+            <h2></h2>
             <h2>About</h2>
             <h2>Zestimates</h2>
             <h2>Reasearch</h2>

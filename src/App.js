@@ -11,9 +11,9 @@ const url =
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <div
-        className=" bg-right-top bg-cover md:bg-center"
+        className=" bg-right-bottom bg-cover md:bg-center bg-local"
         style={{
           backgroundImage: `url(${url})`,
           backgroundRepeat: "no-repeat",

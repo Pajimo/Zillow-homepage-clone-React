@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-iconsed span {
+  position: absolute;
+}
+
+.input-iconsed {
+}
+
+.iconed {
+  min-width: 40px;
+  float: right;
+}
+
+.input-fielded {
+  width: 100%;
+  padding: 10px;
+}

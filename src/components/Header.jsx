@@ -1,4 +1,5 @@
 import Container from "@mui/material/Container";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
@@ -35,7 +36,7 @@ const Header = () => {
           </nav>
         </div>
       </Container>
-      <div className="pl-5 flex justify-between pt-5 pr-5 space-x-5 md:hidden">
+      <div className="pl-5 mb-5 flex justify-between pt-5 pr-5 space-x-5 md:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
@@ -100,25 +101,106 @@ const Header = () => {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div ref={ref} className="md:hidden" id="mobile-menu">
+          <div
+            ref={ref}
+            className="md:hidden h-screen bg-white"
+            id="mobile-menu"
+          >
             <div className="md:bg-white">
               <div fixed>
                 <div>
-                  <nav className="m-5 pt-6 pb-6 text-lg font-serif ">
+                  <nav className="mb-5  pb-6 text-base font-serif font-normal">
                     <section>
                       <ul className="md:space-x-8">
-                        <li>Buy</li>
-                        <li>Rent</li>
-                        <li>Sell</li>
-                        <li>Home Loans</li>
-                        <li>Agent finder</li>
+                        <li className="w-full border-b border-t pt-4 pb-4 flex ">
+                          <div
+                            className="ml-4 mr-4  border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            {" "}
+                            Buy
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
+                        <li className="w-full flex border-b border-t pt-4 pb-4">
+                          <div
+                            className="ml-4 mr-4 border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            Rent
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
+                        <li className="w-full flex border-b border-t pt-4 pb-4">
+                          <div
+                            className="ml-4 mr-4 border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            Sell
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
+                        <li className="w-full flex border-b border-t pt-4 pb-4">
+                          <div
+                            className="ml-4 mr-4 border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            Home Loans
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
+                        <li className="w-full flex border-b border-t pt-4 pb-4">
+                          <div
+                            className="ml-4 mr-4 border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            Agent finder
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
                       </ul>
                     </section>
                     <section>
                       <ul className="flex flex-col md:space-x-8">
-                        <li>Manage Rentals</li>
-                        <li>Advertse</li>
-                        <li>Help</li>
+                        <li className="flex w-full border-b border-t pt-4 pb-4">
+                          <div
+                            className="ml-4 mr-4 border-r-2"
+                            style={{
+                              width: "88%",
+                            }}
+                          >
+                            Manage Rentals
+                          </div>
+                          <div className="text-blue-600 text-base mr-4">
+                            <KeyboardArrowDownIcon />
+                          </div>
+                        </li>
+                        <li className="w-full border pt-4 pb-4">
+                          <div className="ml-4 mr-4">Advertise</div>
+                        </li>
+                        <li className="w-full border pt-4 pb-4">
+                          <div className="ml-4 mr-4">Help</div>{" "}
+                        </li>
                       </ul>
                     </section>
                   </nav>
