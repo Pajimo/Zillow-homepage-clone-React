@@ -1,5 +1,5 @@
 {
-  "name": "mighty-e-store",
+  "name": "zillow-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "css-minimizer-webpack-plugin": "^3.4.1",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.18"
   }
